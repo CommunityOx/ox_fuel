@@ -100,7 +100,7 @@ function fuel.startFueling(vehicle, isPump)
 				pos = vec3(0.1, 0.02, 0.02),
 				rot = vec3(90.0, 40.0, 170.0),
 				rotOrder = 1,
-			},
+			} or nil,
 		})
 
 		state.isFueling = false
