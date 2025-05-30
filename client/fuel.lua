@@ -94,7 +94,7 @@ function fuel.startFueling(vehicle, isPump)
 				dict = isPump and 'timetable@gardener@filling_can' or 'weapon@w_sp_jerrycan',
 				clip = isPump and 'gar_ig_5_filling_can' or 'fire',
 			},
-			prop = {
+			prop = isPump and {
 				model = 'prop_cs_fuel_nozle',
 				bone = 18905,
 				pos = vec3(0.1, 0.02, 0.02),
